@@ -1,7 +1,9 @@
 /* fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* common styles or utilities */
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #f3f1ff;
@@ -22,6 +24,7 @@ hr{
     margin-top: 21px;
     border-radius: 5px;
 }
+
 /* top players style */
 
 .top-players{
@@ -77,4 +80,29 @@ hr{
 .blog-author a{
     text-decoration: none;
     color: #562EFF;
+}
+
+/* Latest Courses Styles */
+
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.course-duration{
+    color: #FF4A60;
+    background-color: #FFE4E8;
+    border-radius: 15px;
 }

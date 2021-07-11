@@ -83,7 +83,11 @@ hr{
 }
 
 /* Latest Courses Styles */
-
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
 .course .course-banner img{
     width: 224px;
     height: 104px;

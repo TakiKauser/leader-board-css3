@@ -43,6 +43,7 @@ hr{
 .logo{
     display: flex;
     align-items: center;
+    color: rgba(128, 128, 128, 0.041);
 }
 .logo img{
     height: 50px;
